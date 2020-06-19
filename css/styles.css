@@ -2,7 +2,7 @@
     border: 2px solid white;
     padding: 20px;
     margin: 20px;
-    background-color: grey;
+    background-color: white;
 }
 
 p {
@@ -30,4 +30,10 @@ h2 {
     position: absolute;
     bottom: 24px;
     left: 50%;
+}
+
+.card-services {
+    position: relative;
+    text-align: center;
+    color: white;
 }
