@@ -1,6 +1,27 @@
-.box {
-    border: 2px solid red;
-    padding: 6px;
+.container {
+    border: 2px solid white;
+    padding: 20px;
     margin: 20px;
-    background-color: yellow;
+    background-color: grey;
+}
+
+p {
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+}
+
+.card-welcome {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.card-heading-welcome {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
