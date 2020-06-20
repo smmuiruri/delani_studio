@@ -83,3 +83,15 @@
         clear: both;
         display: table;
     }
+    
+    .card-contact {
+        position: relative;
+    }
+    
+    .card-contact-heading {
+        position: absolute;
+    }
+    
+    .card-contact-body {
+        position: absolute;
+    }
