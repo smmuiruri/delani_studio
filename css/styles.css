@@ -1,46 +1,85 @@
-.container {
-    border: 2px solid white;
-    padding: 20px;
-    margin: 20px;
-    background-color: white;
-}
-
-p {
-    text-align: center;
-}
-
-h2 {
-    text-align: center;
-}
-
-.card-welcome {
-    position: relative;
-    text-align: center;
-    color: white;
-}
-
-.card-welcome-content {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-}
-
-.card-mouse-click {
-    position: absolute;
-    bottom: 24px;
-    left: 50%;
-}
-
-.card-services {
-    position: relative;
-    text-align: center;
-    color: white;
-}
-
-.card-services-content {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-}
+    .container {
+        border: 2px solid white;
+        padding: 20px;
+        margin: 20px;
+        background-color: white;
+    }
+    
+    p {
+        text-align: center;
+    }
+    
+    h2 {
+        text-align: center;
+    }
+    
+    .card-welcome {
+        position: relative;
+        text-align: center;
+        color: white;
+    }
+    
+    .card-welcome-content {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+    
+    .card-mouse-click {
+        position: absolute;
+        bottom: 24px;
+        left: 50%;
+    }
+    
+    .card-services {
+        position: relative;
+        text-align: center;
+        color: white;
+    }
+    
+    .card-services-content {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+    /* .card-whatwedo-content {
+        position: relative;
+    } */
+    
+    .card-whatwedo-heading {
+        position: relative;
+    }
+    
+    .icon-design {
+        position: relative;
+        top: 50%;
+        left: 0%;
+    }
+    
+    .icon-development {
+        position: relative;
+        top: 50%;
+        left: 50%;
+    }
+    
+    .icon-product {
+        position: relative;
+        top: 50%;
+        left: 100%;
+    }
+    
+    .column {
+        float: left;
+        width: 20%;
+        padding: 5px;
+        align-self: center;
+    }
+    /* Clear floats after image containers */
+    
+    .row-portfolio::after {
+        content: "";
+        clear: both;
+        display: table;
+    }
