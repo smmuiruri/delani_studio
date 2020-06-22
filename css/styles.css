@@ -71,25 +71,21 @@
     }
     
     .column {
-        float: left;
+        float: right;
         width: 20%;
         padding: 5px;
-        align-self: center;
     }
     /* Clear floats after image containers */
-    
-    .row-portfolio::after {
+    /* .row-portfolio::after {
         content: "";
         clear: both;
         display: table;
-    }
+    } */
     
     .card-contact {
         position: relative;
-    }
-    
-    .card-contact-heading {
-        position: absolute;
+        text-align: center;
+        color: white;
     }
     
     .card-contact-body {
