@@ -69,16 +69,11 @@
     }
     
     .column {
-        float: right;
+        display: block;
+        float: left;
         width: 20%;
         padding: 5px;
     }
-    /* Clear floats after image containers */
-    /* .row-portfolio::after {
-        content: "";
-        clear: both;
-        display: table;
-    } */
     
     .card-contact {
         position: relative;
@@ -110,20 +105,21 @@
     
     .card-contact-body {
         position: absolute;
-        top: 50%;
+        top: 40%;
         left: 50%;
         transform: translate(-50%, -50%);
+    }
+    
+    #Submitbutton,
+    #contact-message,
+    #names,
+    #email {
         background: transparent;
     }
     
     .social-icons {
-        display: block;
-        float: left;
-        margin: 10px;
-        width: 5%;
-        padding: 5px;
-    }
-    
-    .footer {
-        text-align: center;
+        display: inline;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 20px;
     }
