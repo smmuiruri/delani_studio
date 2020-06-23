@@ -116,8 +116,14 @@
         background: transparent;
     }
     
-    .social-icon {
-        float: right;
-        width: 10%;
+    .social-icons {
+        display: block;
+        float: left;
+        margin: 10px;
+        width: 5%;
         padding: 5px;
+    }
+    
+    .footer {
+        text-align: center;
     }
