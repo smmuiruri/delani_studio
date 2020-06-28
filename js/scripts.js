@@ -12,3 +12,22 @@ $(document).ready(function() {
         $("#product-toggle").toggle();
     })
 })
+$(document).ready(function() {
+    $(".contact form").submit(function() {
+        var name = $("#name").val();
+        if (name == "") {
+            alert("Enter your name")
+            return false;
+        }
+        var email = $("#email").val();
+        if (email == "") {
+            alert("Enter Email address")
+            return false
+        }
+        var message = $("#contact-message").val();
+        if (message == "") {
+            alert("Enter message")
+            return false
+        }
+    })
+})
