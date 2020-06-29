@@ -13,10 +13,56 @@ $(document).ready(function() {
     })
 })
 $(document).ready(function() {
-    $(".column").hover(function() {
-        $(".layer1").addClass("overlay");
-    })
+    $(".column1").hover(function() {
+        $(".p1").fadeIn();
+    }, function() {
+        $(this).stop().animate();
+        $(".p1").fadeOut();
+    });
+    $(".column2").hover(function() {
+        $(".p2").fadeIn();
+    }, function() {
+        $(this).stop().animate();
+        $(".p2").fadeOut();
+    });
+    $(".column1").hover(function() {
+        $(".p3").fadeIn();
+    }, function() {
+        $(this).stop().animate();
+        $(".p3").fadeOut();
+    });
+    $(".column4").hover(function() {
+        $(".p4").fadeIn();
+    }, function() {
+        $(this).stop().animate();
+        $(".p4").fadeOut();
+    });
+    $(".column5").hover(function() {
+        $(".p5").fadeIn();
+    }, function() {
+        $(this).stop().animate();
+        $(".p5").fadeOut();
+    });
+    $(".column6").hover(function() {
+        $(".p6").fadeIn();
+    }, function() {
+        $(this).stop().animate();
+        $(".p6").fadeOut();
+    });
+    $(".column7").hover(function() {
+        $(".p7").fadeIn();
+    }, function() {
+        $(this).stop().animate();
+        $(".p7").fadeOut();
+    });
+    $(".column8").hover(function() {
+        $(".p8").fadeIn();
+    }, function() {
+        $(this).stop().animate();
+        $(".p8").fadeOut();
+    });
 })
+
 $(document).ready(function() {
     $(".contact form").submit(function() {
         var name = $("#name").val();
