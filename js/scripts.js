@@ -13,6 +13,11 @@ $(document).ready(function() {
     })
 })
 $(document).ready(function() {
+    $(".column").hover(function() {
+        $(".layer1").addClass("overlay");
+    })
+})
+$(document).ready(function() {
     $(".contact form").submit(function() {
         var name = $("#name").val();
         if (name == "") {
