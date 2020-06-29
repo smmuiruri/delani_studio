@@ -68,7 +68,11 @@
         left: 90%;
     }
     
-    .p1 {
+    .layer1 {
+        display: none;
+    }
+    
+    .overlay {
         display: none;
     }
     
